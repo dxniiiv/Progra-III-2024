@@ -15,7 +15,7 @@
                 <div class="card text-bg-dark mb-3">
                     <div class="card-header">Registro de Alumnos</div>
                     <div class="card-body">
-                        <form id="frmAlumno">
+                        <form id="frmAlumno" data-accion="nuevo" data-idalumno="0">
                             <div class="row p-1">
                                 <div class="col-3 col-md-2">CODIGO </div>
                                 <div class="col-9 col-md-4">
@@ -28,7 +28,7 @@
                                     <input type="text" class="form-control" id="txtNombreAlumno" name="txtNombreAlumno" required>
                                 </div>
                             </div>
-                            <div class="row p-1">
+                            <div class="row p-1"> 
                                 <div class="col-3 col-md-2">DIRECCION</div>
                                 <div class="col-9 col-md-10">
                                     <input type="text" class="form-control" id="txtDireccionAlumno" name="txtDireccionAlumno" required>
@@ -70,6 +70,7 @@
                                     <th>DIRECCION</th>
                                     <th>TEL</th>
                                     <th>CORREO</th>
+                                    <th></th>
                                 </tr>
                             </thead>
                             <tbody></tbody>
@@ -87,13 +88,19 @@
             e.preventDefault();
             
             let datos = {
+                accion : frmAlumno.dataset.accion,
+                idAlumno : frmAlumno.dataset.idalumno,
                 codigo : txtCodigoAlumno.value,
                 nombre : txtNombreAlumno.value,
                 direccion : txtDireccionAlumno.value,
                 telefono : txtTelefonoAlumno.value,
                 correo : txtCorreoAlumno.value
             };
-            fetch('/',{
+            enviarDatosAlumno(datos);
+        });
+    });
+    function enviarDatosAlumno(datos){
+        fetch('/',{
                 method : 'POST',
                 body : JSON.stringify(datos)
             })
@@ -105,8 +112,16 @@
                 }
             })
             .catch(err => console.log(err));
-        });
-    });
+    }
+    function eliminarAlumno(idAlumno){
+        if(confirm("¿Desea eliminar este registro?")){
+            let datos = {
+                accion : "eliminar",
+                idAlumno,
+            };
+            enviarDatosAlumno(datos);
+        }
+    }
     function consultarAlumnos(){
         fetch('/alumnos')
         .then(res => res.json())
@@ -119,18 +134,34 @@
         let filas = '';
         data.forEach(alumno => {
             filas += `
-                <tr>
+                <tr onClick='modificarAlumno(${JSON.stringify(alumno)})'>
                     <td>${alumno.codigo}</td>
                     <td>${alumno.nombre}</td>
                     <td>${alumno.direccion}</td>
                     <td>${alumno.telefono}</td>
                     <td>${alumno.email}</td>
+                    <td>
+                        <button type="button" class="btn btn-outline-danger" 
+                            onClick='eliminarAlumno(${alumno.idAlumno})'>DEL
+                        </button>
+                    </td>
                 </tr>
             `;
         });
         document.querySelector('#tblAlumnos > tbody').innerHTML = filas;
     }
+    function modificarAlumno(alumno){
+        frmAlumno.dataset.accion = 'modificar';
+        frmAlumno.dataset.idalumno = alumno.idAlumno;
+        txtCodigoAlumno.value = alumno.codigo;
+        txtNombreAlumno.value = alumno.nombre;
+        txtDireccionAlumno.value = alumno.direccion;
+        txtTelefonoAlumno.value = alumno.telefono;
+        txtCorreoAlumno.value = alumno.email;
+    }
     function limpiarDatosAlumnos(){
+        frmAlumno.dataset.accion = 'nuevo';
+        frmAlumno.dataset.idalumno = '';
         txtCodigoAlumno.value = '';
         txtNombreAlumno.value = '';
         txtDireccionAlumno.value = '';

@@ -8,7 +8,8 @@ class crud:
             host="localhost",
             user="root",
             password="",
-            database="db_academica"
+            database="db_academica",
+
         )
         if self.conexion.is_connected():
             print("Conectado")
