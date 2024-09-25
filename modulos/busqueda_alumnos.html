@@ -1,0 +1,61 @@
+<div class="card text-bg-dark mb-3"></div>
+    <div class="card-header">Consulta de Alumnos</div>
+    <div class="card-body">
+        <table class="table table-hover" id="tblAlumnos">
+            <thead>
+                <tr>
+                    <th>CODIGO</th>
+                    <th>NOMBRE</th>
+                    <th>DIRECCION</th>
+                    <th>TEL</th>
+                    <th>CORREO</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<script>
+    /*
+    Tarea: Realizar la busqueda interactiva de alumnos, por codigo, nombre y email.
+    */
+    function eliminarAlumno(idAlumno){
+        if(confirm("¿Desea eliminar este registro?")){
+            let datos = {
+                accion : "eliminar",
+                idAlumno,
+            };
+            enviarDatosAlumno(datos);
+        }
+    }
+    function consultarAlumnos(){
+        fetch('/alumnos')
+        .then(res => res.json())
+        .then(data => {
+            mostrarFilasAlumnos(data);
+        })
+        .catch(err => console.log(err));
+    }
+    function mostrarFilasAlumnos(data = []){
+        let filas = '';
+        data.forEach(alumno => {
+            filas += `
+                <tr onClick='modificarAlumno(${JSON.stringify(alumno)})'>
+                    <td>${alumno.codigo}</td>
+                    <td>${alumno.nombre}</td>
+                    <td>${alumno.direccion}</td>
+                    <td>${alumno.telefono}</td>
+                    <td>${alumno.email}</td>
+                    <td>
+                        <button type="button" class="btn btn-outline-danger" 
+                            onClick='eliminarAlumno(${alumno.idAlumno})'>DEL
+                        </button>
+                    </td>
+                </tr>
+            `;
+        });
+        document.querySelector('#tblAlumnos > tbody').innerHTML = filas;
+    }
+    consultarAlumnos();
+</script>
