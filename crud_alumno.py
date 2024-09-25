@@ -19,7 +19,8 @@ class crud_alumno:
                     SET codigo = %s, nombre = %s, direccion = %s, telefono = %s, email = %s
                 WHERE idAlumno = %s
             """
-            valores = (datos["codigo"], datos["nombre"], datos["direccion"], datos["telefono"], datos["correo"], datos["idAlumno"])
+            valores = (datos["codigo"], datos["nombre"], datos["direccion"], 
+                    datos["telefono"], datos["correo"], datos["idAlumno"])
         elif(datos["accion"] == "eliminar"):
             sql = """
                 DELETE FROM alumnos
