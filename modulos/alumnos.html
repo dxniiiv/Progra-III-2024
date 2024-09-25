@@ -1,7 +1,14 @@
-<div class="card text-bg-dark mb-3" style="min-width: 700px;"></div>
-    <div class="card-header">Registro de Alumnos</div>
-    <div class="card-body">
-        <form id="frmAlumno" data-accion="nuevo" data-idalumno="0">
+<form id="frmAlumno" data-accion="nuevo" data-idalumno="0">
+    <div class="card text-bg-dark mb-3" style="min-width: 700px;">
+        <div class="card-header">
+            <div class="d-flex">
+                Registro de Alumnos
+                <div class="ms-auto">
+                    <button type="button" data-form="alumnos" class="btn-close btn-close-white" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
             <div class="row p-1">
                 <div class="col-3 col-md-2">CODIGO </div>
                 <div class="col-9 col-md-4">
@@ -43,9 +50,9 @@
                     <button type="button" class="btn btn-outline-success" onclick="abrirVentana('busqueda_alumnos')">BUSCAR</button>
                 </div>
             </div>
-        </form>
+        </div>
     </div>
-</div>
+</form>
 <script>
     /*
     Tarea: Realizar la busqueda interactiva de alumnos, por codigo, nombre y email.

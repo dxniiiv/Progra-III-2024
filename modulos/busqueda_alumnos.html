@@ -1,21 +1,30 @@
-<div class="card text-bg-dark mb-3"></div>
-    <div class="card-header">Consulta de Alumnos</div>
-    <div class="card-body">
-        <table class="table table-hover" id="tblAlumnos">
-            <thead>
-                <tr>
-                    <th>CODIGO</th>
-                    <th>NOMBRE</th>
-                    <th>DIRECCION</th>
-                    <th>TEL</th>
-                    <th>CORREO</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
+<form id="frmBusquedaAlumno">
+    <div class="card text-bg-dark mb-3">
+        <div class="card-header">
+            <div class="d-flex">
+                Consulta de Alumnos
+                <div class="ms-auto">
+                    <button type="button" data-form="busqueda_alumnos" class="btn-close btn-close-white" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table table-hover" id="tblAlumnos">
+                <thead>
+                    <tr>
+                        <th>CODIGO</th>
+                        <th>NOMBRE</th>
+                        <th>DIRECCION</th>
+                        <th>TEL</th>
+                        <th>CORREO</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
     </div>
-</div>
+</form>
 <script>
     /*
     Tarea: Realizar la busqueda interactiva de alumnos, por codigo, nombre y email.

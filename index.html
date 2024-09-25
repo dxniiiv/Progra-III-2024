@@ -36,9 +36,9 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
         crossorigin="anonymous"></script>
-    <script> src= "<script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js" 
-        integrity="sha256-sw0iNNXmOJbQhYFuC9OF2kOlD5KQKe1y5lfBn4C9Sjg=" 
-        crossorigin="anonymous"></script>"</script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.min.js" 
+        integrity="sha256-Fb0zP4jE3JHqu+IBB9YktLcSjI1Zc6J2b6gTjB0LpoM=" 
+        crossorigin="anonymous"></script>
     <script>
         document.addEventListener('DOMContentLoaded', event => {
             mnxAcademica.addEventListener('click', e => {
@@ -55,8 +55,15 @@
                 let url = `/vista?form=${form}`;
                 fetch(url).then(resp=>resp.text()).then(vista => {
                     $(`#${form}`).html(vista).draggable();
+                    cerrarVentana();
                 });
             }
+        }
+        function cerrarVentana() {
+            $('.btn-close').off('click').click(e => {
+                let form = e.target.dataset.form;
+                $(`#${form}`).hide();
+            });
         }
     </script>
 </body>
