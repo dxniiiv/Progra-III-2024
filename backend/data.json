@@ -1,0 +1,1279 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Usuario",
+    "content_type": 6,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Usuario",
+    "content_type": 6,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Usuario",
+    "content_type": 6,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Usuario",
+    "content_type": 6,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Direccion",
+    "content_type": 7,
+    "codename": "add_direccion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Direccion",
+    "content_type": 7,
+    "codename": "change_direccion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Direccion",
+    "content_type": 7,
+    "codename": "delete_direccion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Direccion",
+    "content_type": 7,
+    "codename": "view_direccion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Rol",
+    "content_type": 8,
+    "codename": "add_rol"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Rol",
+    "content_type": 8,
+    "codename": "change_rol"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Rol",
+    "content_type": 8,
+    "codename": "delete_rol"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Rol",
+    "content_type": 8,
+    "codename": "view_rol"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Categoria",
+    "content_type": 9,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Categoria",
+    "content_type": 9,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Categoria",
+    "content_type": 9,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Categoria",
+    "content_type": 9,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Extra",
+    "content_type": 10,
+    "codename": "add_extras"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Extra",
+    "content_type": 10,
+    "codename": "change_extras"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Extra",
+    "content_type": 10,
+    "codename": "delete_extras"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Extra",
+    "content_type": 10,
+    "codename": "view_extras"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Tipo_Ingrediente",
+    "content_type": 11,
+    "codename": "add_tipo_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Tipo_Ingrediente",
+    "content_type": 11,
+    "codename": "change_tipo_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Tipo_Ingrediente",
+    "content_type": 11,
+    "codename": "delete_tipo_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Tipo_Ingrediente",
+    "content_type": 11,
+    "codename": "view_tipo_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add Producto",
+    "content_type": 12,
+    "codename": "add_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change Producto",
+    "content_type": 12,
+    "codename": "change_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete Producto",
+    "content_type": 12,
+    "codename": "delete_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view Producto",
+    "content_type": 12,
+    "codename": "view_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add Descuento",
+    "content_type": 13,
+    "codename": "add_descuento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change Descuento",
+    "content_type": 13,
+    "codename": "change_descuento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete Descuento",
+    "content_type": 13,
+    "codename": "delete_descuento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view Descuento",
+    "content_type": 13,
+    "codename": "view_descuento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add Combo_Producto",
+    "content_type": 14,
+    "codename": "add_combo_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change Combo_Producto",
+    "content_type": 14,
+    "codename": "change_combo_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete Combo_Producto",
+    "content_type": 14,
+    "codename": "delete_combo_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view Combo_Producto",
+    "content_type": 14,
+    "codename": "view_combo_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add Ingrediente",
+    "content_type": 15,
+    "codename": "add_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change Ingrediente",
+    "content_type": 15,
+    "codename": "change_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete Ingrediente",
+    "content_type": 15,
+    "codename": "delete_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view Ingrediente",
+    "content_type": 15,
+    "codename": "view_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add Carrito",
+    "content_type": 16,
+    "codename": "add_carrito"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change Carrito",
+    "content_type": 16,
+    "codename": "change_carrito"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete Carrito",
+    "content_type": 16,
+    "codename": "delete_carrito"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view Carrito",
+    "content_type": 16,
+    "codename": "view_carrito"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add Carrito_Producto",
+    "content_type": 17,
+    "codename": "add_carrito_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change Carrito_Producto",
+    "content_type": 17,
+    "codename": "change_carrito_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete Carrito_Producto",
+    "content_type": 17,
+    "codename": "delete_carrito_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view Carrito_Producto",
+    "content_type": 17,
+    "codename": "view_carrito_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add Carrito_Producto_Extra",
+    "content_type": 18,
+    "codename": "add_carrito_producto_extra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change Carrito_Producto_Extra",
+    "content_type": 18,
+    "codename": "change_carrito_producto_extra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete Carrito_Producto_Extra",
+    "content_type": 18,
+    "codename": "delete_carrito_producto_extra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view Carrito_Producto_Extra",
+    "content_type": 18,
+    "codename": "view_carrito_producto_extra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add Venta",
+    "content_type": 19,
+    "codename": "add_venta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change Venta",
+    "content_type": 19,
+    "codename": "change_venta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete Venta",
+    "content_type": 19,
+    "codename": "delete_venta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view Venta",
+    "content_type": 19,
+    "codename": "view_venta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add Venta_Producto",
+    "content_type": 20,
+    "codename": "add_venta_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change Venta_Producto",
+    "content_type": 20,
+    "codename": "change_venta_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete Venta_Producto",
+    "content_type": 20,
+    "codename": "delete_venta_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view Venta_Producto",
+    "content_type": 20,
+    "codename": "view_venta_producto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add Venta_Producto_Extra",
+    "content_type": 21,
+    "codename": "add_venta_producto_extra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change Venta_Producto_Extra",
+    "content_type": 21,
+    "codename": "change_venta_producto_extra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete Venta_Producto_Extra",
+    "content_type": 21,
+    "codename": "delete_venta_producto_extra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view Venta_Producto_Extra",
+    "content_type": 21,
+    "codename": "view_venta_producto_extra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can add Anuncio",
+    "content_type": 22,
+    "codename": "add_anuncio"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can change Anuncio",
+    "content_type": 22,
+    "codename": "change_anuncio"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can delete Anuncio",
+    "content_type": 22,
+    "codename": "delete_anuncio"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can view Anuncio",
+    "content_type": 22,
+    "codename": "view_anuncio"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 89,
+  "fields": {
+    "name": "Can add Pregunta_Frecuente",
+    "content_type": 23,
+    "codename": "add_pregunta_frecuente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 90,
+  "fields": {
+    "name": "Can change Pregunta_Frecuente",
+    "content_type": 23,
+    "codename": "change_pregunta_frecuente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 91,
+  "fields": {
+    "name": "Can delete Pregunta_Frecuente",
+    "content_type": 23,
+    "codename": "delete_pregunta_frecuente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 92,
+  "fields": {
+    "name": "Can view Pregunta_Frecuente",
+    "content_type": 23,
+    "codename": "view_pregunta_frecuente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 93,
+  "fields": {
+    "name": "Can add Mensaje",
+    "content_type": 24,
+    "codename": "add_mensaje"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 94,
+  "fields": {
+    "name": "Can change Mensaje",
+    "content_type": 24,
+    "codename": "change_mensaje"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 95,
+  "fields": {
+    "name": "Can delete Mensaje",
+    "content_type": 24,
+    "codename": "delete_mensaje"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 96,
+  "fields": {
+    "name": "Can view Mensaje",
+    "content_type": 24,
+    "codename": "view_mensaje"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "usuarios",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "usuarios",
+    "model": "direccion"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "usuarios",
+    "model": "rol"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "menu",
+    "model": "categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "menu",
+    "model": "extras"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "menu",
+    "model": "tipo_ingrediente"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "menu",
+    "model": "producto"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "menu",
+    "model": "descuento"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "menu",
+    "model": "combo_producto"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "menu",
+    "model": "ingrediente"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "ventas",
+    "model": "carrito"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "ventas",
+    "model": "carrito_producto"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "ventas",
+    "model": "carrito_producto_extra"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "ventas",
+    "model": "venta"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "ventas",
+    "model": "venta_producto"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "ventas",
+    "model": "venta_producto_extra"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "info",
+    "model": "anuncio"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 23,
+  "fields": {
+    "app_label": "info",
+    "model": "pregunta_frecuente"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 24,
+  "fields": {
+    "app_label": "chat",
+    "model": "mensaje"
+  }
+},
+{
+  "model": "usuarios.usuario",
+  "pk": 21,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$qn1fzStCH2FmcTRqgjDXeD$SYPO3pDOMoB5KRBbeWaPuqXV1UEr/sKSr5DfSiFbmgM=",
+    "last_login": null,
+    "correo": "danicastillog4@gmail.com",
+    "nombre": "Daniel",
+    "apellido": "Guerrero",
+    "telefono": "3323-4332",
+    "fecha_registro": "2024-10-04T15:52:40.285Z"
+  }
+},
+{
+  "model": "usuarios.usuario",
+  "pk": 22,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$TjSIqKAL5p1ohvj15u9cpv$X77z9jPiuvXeKI8EsFx8Uh7EJhx7nn0YRDzOyQdMTzM=",
+    "last_login": null,
+    "correo": "dbhsbhd@gmaill.com",
+    "nombre": "dsas",
+    "apellido": "cdh",
+    "telefono": "3833-3432",
+    "fecha_registro": "2024-10-04T15:53:54.240Z"
+  }
+},
+{
+  "model": "usuarios.usuario",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$243vrjvUE7Xr6biDxNSzWl$uSbvG4rJsz12GlzrxdSNkSBNr6erOynB8uXfJ/UrpsE=",
+    "last_login": null,
+    "correo": "juanp@gmail.com",
+    "nombre": "Juan",
+    "apellido": "Perez",
+    "telefono": "2323-2322",
+    "fecha_registro": "2024-10-04T15:57:51.735Z"
+  }
+},
+{
+  "model": "usuarios.usuario",
+  "pk": 24,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$BeHWAOZTGwOfOmFSTHW1QJ$Y8LNANYHclfPKvwPi8pJEFvvpNkb3IJnf5O1hd51dac=",
+    "last_login": null,
+    "correo": "bwfyebe@we.ewf",
+    "nombre": "g ggef",
+    "apellido": "h eeff",
+    "telefono": "2323-2322",
+    "fecha_registro": "2024-10-06T21:15:59.346Z"
+  }
+},
+{
+  "model": "usuarios.usuario",
+  "pk": 28,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$3j5uPBBqtP0n9hPx070iSd$ViPQbIt8hj95105m3fTEYBaYOurCD1YBkhcmBAe1mf4=",
+    "last_login": null,
+    "correo": "fulanito@ful.com",
+    "nombre": "Fulano",
+    "apellido": "De tal",
+    "telefono": "2121-1232",
+    "fecha_registro": "2024-10-09T14:37:42.477Z"
+  }
+},
+{
+  "model": "usuarios.usuario",
+  "pk": 29,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$iJj0qH0YowthPhL7sQ6NF8$BNc9HOljsqWV5Zo04ocrIhVLwucwyVZyhanWq7WJEj0=",
+    "last_login": null,
+    "correo": "luishernandes@ugb.edu.sv",
+    "nombre": "Luis",
+    "apellido": "Hernandez",
+    "telefono": "7363-2332",
+    "fecha_registro": "2024-10-09T14:42:23.624Z"
+  }
+},
+{
+  "model": "usuarios.rol",
+  "pk": 1,
+  "fields": {
+    "nombre": "Administrador",
+    "descripcion": "Es un  administrador",
+    "usuarios": [
+      21
+    ]
+  }
+},
+{
+  "model": "menu.categoria",
+  "pk": 1,
+  "fields": {
+    "nombre": "Burgers",
+    "url_foto": "https://proyectodb.blob.core.windows.net/imgs/Burger_cheesebacon.jpeg"
+  }
+},
+{
+  "model": "menu.categoria",
+  "pk": 2,
+  "fields": {
+    "nombre": "Bebidas",
+    "url_foto": "https://proyectodb.blob.core.windows.net/imgs/Limonada_fresa.jpeg"
+  }
+},
+{
+  "model": "menu.categoria",
+  "pk": 3,
+  "fields": {
+    "nombre": "Combos",
+    "url_foto": "https://proyectodb.blob.core.windows.net/imgs/Combo_estudiante.jpeg"
+  }
+},
+{
+  "model": "menu.categoria",
+  "pk": 4,
+  "fields": {
+    "nombre": "Snacks",
+    "url_foto": "https://proyectodb.blob.core.windows.net/imgs/Nachos.jpeg"
+  }
+},
+{
+  "model": "menu.descuento",
+  "pk": 1,
+  "fields": {
+    "nombre": "descuento1",
+    "tipo": "porcentaje",
+    "valor": "50.00",
+    "inicio": "2024-10-08T00:09:21Z",
+    "fin": "2024-10-08T00:09:25Z",
+    "frecuencia": null
+  }
+},
+{
+  "model": "menu.producto",
+  "pk": 4,
+  "fields": {
+    "nombre": "Cheesebacon",
+    "descripcion": "Burger de bacon",
+    "precio": "6.00",
+    "url_foto": "https://proyectodb.blob.core.windows.net/imgs/Burger_cheesebacon.jpeg",
+    "categoria": 1,
+    "descuento": null
+  }
+},
+{
+  "model": "menu.producto",
+  "pk": 5,
+  "fields": {
+    "nombre": "De la casa",
+    "descripcion": "de la casa",
+    "precio": "3.75",
+    "url_foto": "https://proyectodb.blob.core.windows.net/imgs/Burger_de_la_casa.jpeg",
+    "categoria": 1,
+    "descuento": null
+  }
+},
+{
+  "model": "menu.producto",
+  "pk": 6,
+  "fields": {
+    "nombre": "Burger Grosera",
+    "descripcion": "la grosera",
+    "precio": "5.75",
+    "url_foto": "https://proyectodb.blob.core.windows.net/imgs/Burger_grosera.jpeg",
+    "categoria": 1,
+    "descuento": null
+  }
+},
+{
+  "model": "menu.producto",
+  "pk": 7,
+  "fields": {
+    "nombre": "Limonada de fresa",
+    "descripcion": "limofresa",
+    "precio": "2.50",
+    "url_foto": "https://proyectodb.blob.core.windows.net/imgs/Limonada_fresa.jpeg",
+    "categoria": 2,
+    "descuento": null
+  }
+},
+{
+  "model": "menu.producto",
+  "pk": 8,
+  "fields": {
+    "nombre": "Limonada de pepino",
+    "descripcion": "limopino",
+    "precio": "2.50",
+    "url_foto": "https://proyectodb.blob.core.windows.net/imgs/Limonada_pepino.jpeg",
+    "categoria": 2,
+    "descuento": null
+  }
+},
+{
+  "model": "menu.producto",
+  "pk": 9,
+  "fields": {
+    "nombre": "Te de la casa",
+    "descripcion": "tecasa",
+    "precio": "0.75",
+    "url_foto": "https://proyectodb.blob.core.windows.net/imgs/Te_de_la_casa.jpeg",
+    "categoria": 2,
+    "descuento": null
+  }
+},
+{
+  "model": "info.anuncio",
+  "pk": 1,
+  "fields": {
+    "url_foto": "foto",
+    "url_redireccion": "principal"
+  }
+},
+{
+  "model": "info.anuncio",
+  "pk": 2,
+  "fields": {
+    "url_foto": "foto2",
+    "url_redireccion": "miburger"
+  }
+}
+]
